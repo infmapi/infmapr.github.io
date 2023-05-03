@@ -100,9 +100,8 @@
 </style>
 
 <script>
- const button = document.querySelector('#myButtonx');
+const button = document.querySelector('#myButtonx');
 button.addEventListener('click', () => {
-  window.location.href = 'about:blank';
   const iframe = document.createElement('iframe');
   iframe.src = 'https://infmapi.github.io/infmapr.github.io/projects';
   iframe.style.width = '100%';
@@ -112,8 +111,10 @@ button.addEventListener('click', () => {
   iframe.style.left = '0';
   iframe.style.bottom = '0';
   iframe.style.right = '0';
+  document.body.innerHTML = '';
   document.body.appendChild(iframe);
 });
+
 
   
 
