@@ -1,6 +1,21 @@
  shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.code.unityweb
  shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.framework.unityweb
  shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.memory.unityweb
+shadowgames/gfiles/madalin-cars-3/unity/asmMemory.unityweb 
+shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.framework.unityweb 
+
+shadowgames/gfiles/drift-hunters/Build/ItchIO.data.unityweb
+
+ shadowgames/gfiles/rocket-soccer/RSD 
+1.1.0rc4.wasm.framework.unityweb 
+ shadowgames/gfiles/rocket-soccer/RSD 1.1.0rc4.wasm.code.unityweb 
+ shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.code.unityweb 
+  shadowgames/gfiles/madalin-cars-3/unity/asmCode.unityweb 
+ shadowgames/gfiles/drift-hunters/Build/ItchIO.asm.memory.unityweb  shadowgames/gfiles/madalin-cars-3/unity/asmFramework.unityweb  
+shadowgames/gfiles/madalin-cars-3/unity/data.unityweb 
+ shadowgames/gfiles/rocket-soccer/RSD 1.1.0rc4.data.unityweb  
+
+
  shadowgames/gfiles/drift-hunters/Build/ItchIO.data.unityweb
 shadowgames/gfiles/flagracer/Build/FlagRacerWeb.data.unityweb
 shadowgames/gfiles/flagracer/Build/FlagRacerWeb.framework.js.unityweb
