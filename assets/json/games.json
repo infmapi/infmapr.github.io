@@ -257,12 +257,7 @@
     "file": "index.html",
     "img": "images.png"
   },
-  {
-    "name": "Bitlife",
-    "root": "bitlife",
-    "file": "index.html",
-    "img": "logo.png"
-  },
+ 
   {
     "name": "Black Hole Square",
     "root": "blacholesquare",
