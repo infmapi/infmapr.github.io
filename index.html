@@ -37,10 +37,13 @@
        <button id="myButtonx">Play Now!! (New Update) </button>
        </div>
       <div>
-<a href="https://forms.gle/EqezHUM6vWYRBUiB8" style="font-size: 25px;"><h2>Tell us a game that you liked</h2></a> <h4>&nbsp &nbsp</h4> 
+<a href="https://forms.gle/EqezHUM6vWYRBUiB8" class="suggestbutton">
+  <h2>Tell us a game that you liked</h2>
+</a>
+
       </div>
       <div>
-   <h1>Happy mother's day</h1>
+   <h1>Teel a game you liked above</h1>
 </div>
       <style>
   #myButtonx {
@@ -103,6 +106,38 @@
     width: 200%;
     height: 200%;
   }
+        
+        .suggestbutton {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #007bff;
+  padding: 12px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.suggestbutton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.suggestbutton:hover {
+  background-color: #0056b3;
+}
+
+.suggestbutton:hover::before {
+  left: 0;
+}
+
 </style>
 
 <script>
