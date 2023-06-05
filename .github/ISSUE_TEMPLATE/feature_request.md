@@ -10,7 +10,7 @@ assignees: ''
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Is it a new game? please put I the link**
+**Is it a new game? please put I the link to play**
 A clear and concise description of what you want to happen.
 
 **Describe alternatives you've considered**
