@@ -18,41 +18,44 @@
 	
 	<center>
 		<h1>Proxy Services</h1>
-<div>
-	 <a href="Roblox1.html">
-  <img src="Roblox_Logo_2022-removebg-preview.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-	
-     <a href="youtube.html">
-  <img src="youtube.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-          <a href="poki.html">
-  <img src="poki.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-        
-	 <a href="">
-    <img src="transparent.png" alt="Logo" style="width: 35px; height: 45px;" />
- </a>
+<div id="proxybar">
+  <a href="Roblox1.html">
+    <img src="Roblox_Logo_2022-removebg-preview.png" alt="Logo" />
+  </a>
 
-	    <a href="proxyuse.html">
-  <img src="Proxy-removebg-preview.png" alt="Logo" style="width: 200px; height: 200px;" />
-      </a>
-	
-	<a href="">
-    <img src="transparent.png" alt="Logo" style="width: 35px; height: 45px;" />
- </a>
+  <a href="youtube.html">
+    <img src="youtube.png" alt="Logo" />
+  </a>
 
-	    <a href="crazygames.html">
-  <img src="Ziggy_Default.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-	    <a href="xboxlive.html">
-  <img src="xbox.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-	    <a href="gmail.html">
-  <img src="gmaillogo.png" alt="Logo" style="width: 100px; height: 100px;" />
-      </a>
-	     
-	     </div>
+  <a href="poki.html">
+    <img src="poki.png" alt="Logo" />
+  </a>
+
+  <a href="">
+    <img src="transparent.png" alt="Logo" />
+  </a>
+
+  <a href="proxyuse.html">
+    <img src="Proxy-removebg-preview.png" alt="Logo" />
+  </a>
+
+  <a href="">
+    <img src="transparent.png" alt="Logo" />
+  </a>
+
+  <a href="crazygames.html">
+    <img src="Ziggy_Default.png" alt="Logo" />
+  </a>
+
+  <a href="xboxlive.html">
+    <img src="xbox.png" alt="Logo" />
+  </a>
+
+  <a href="gmail.html">
+    <img src="gmaillogo.png" alt="Logo" />
+  </a>
+</div>
+
 	
 	</center>
 
@@ -456,6 +459,27 @@
 
 .suggestbutton:hover::before {
   left: 0;
+}
+
+	#proxybar{
+  display: flex;
+  justify-content: space-between;
+  animation: slide-in 2s infinite alternate;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+#proxybar img {
+  width: 100px;
+  height: 100px;
 }
 
 
