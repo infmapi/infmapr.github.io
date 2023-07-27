@@ -8,9 +8,7 @@
   
 </head>
 <body>
-  <center>
-    <div> <h1> We have moved to new domians </h1> </div>
-    <div>
+  
   <a href="https://infmapi.netlify.app" class="cool-button">Open New Infmapi</a>
       </div>
   </center>
