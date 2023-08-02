@@ -10,7 +10,7 @@
 <body>
   
  # <a href="https://infmapi.netlify.app" class="cool-button">Open New Infmapi</a>
-      </div>
+      
   </center>
 </body>
 </html>
